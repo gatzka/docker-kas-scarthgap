@@ -3,7 +3,9 @@ FROM ubuntu:24.04
 LABEL maintainer="Stephan Gatzka <stephan.gatzka@gmail.com>"
 
 LABEL org.opencontainers.image.authors="Stephan Gatzka <stephan.gatzka@gmail.com>"
+LABEL org.opencontainers.image.source="https://github.com/gatzka/docker-kas-scarthgap"
 LABEL org.opencontainers.image.description="kas-based build environment for yocto scarthgap"
+LABEL org.opencontainers.image.licenses=MIT
 
 ARG DEBIAN_FRONTEND=noninteractive
 
