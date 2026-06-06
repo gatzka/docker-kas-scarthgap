@@ -20,21 +20,34 @@ RUN apt-get -y update \
         chrpath \
         cpio \
         curl \
+        debianutils \
         diffstat \
         elfutils \
         file \
         gawk \
+        gcc \
         git \
         git-lfs \
         iproute2 \
+        iputils-ping \
         kas \
-        lz4 \
+        libacl1 \
+        liblz4-tool \
         locales \
         nmap \
         openssh-client \
         python3 \
+        python3-git \
+        python3-jinja2 \
+        python3-pexpect \
+        python3-pip \
+        python3-subunit \
+        socat \
         systemd \
+        texinfo \
+        unzip \
         wget \
+        xz-utils \
         zstd \
     && rm -rf /var/lib/apt/lists/*
 
